@@ -24,5 +24,11 @@ namespace PrincipiosSolid.LiskovSubstitution.Correcto {
                 Console.WriteLine(coche.numAsientos());
             }
         }
+
+        public static void imprimirPrecioMedio(Coche[] arrayCoches) {
+            foreach (Coche coche in arrayCoches) {
+                Console.WriteLine(coche.precioMedioCoche());
+            }
+        }
     }
 }
